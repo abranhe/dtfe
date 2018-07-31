@@ -1,0 +1,42 @@
+{
+  "name": "dtfe",
+  "version": "1.0.0",
+  "description": "Does the file/folder exist? 🤔",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abranhe/dtfe.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+  "keywords": [
+    "file",
+    "folder",
+    "directory",
+    "exist",
+    "doesexist",
+    "check",
+    "check-file",
+    "check-directory"
+  ],
+  "author": {
+    "name": "Carlos Abraham",
+    "email": "abraham@abranhe.com",
+    "web": "abranhe.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abranhe/dtfe/issues"
+  },
+  "homepage": "https://github.com/abranhe/dtfe#readme",
+  "devDependencies": {
+    "ava": "1.0.0-beta.6"
+  }
+}
