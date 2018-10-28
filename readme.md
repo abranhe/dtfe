@@ -1,5 +1,5 @@
 <p align="center">
-	<a href="https://www.npmjs.com/package/dtfe"><img src="https://cdn.abraham.gq/projects/dtfe/dtfe.png"></a>
+	<a href="https://www.npmjs.com/package/dtfe"><img src="https://cdn.abranhe.com/projects/dtfe/dtfe.png"></a>
 	<br>
 	<br>
 	<br>
@@ -10,9 +10,9 @@
 <p align="center">
 	<a href="https://travis-ci.org/abranhe/dtfe"><img src="https://img.shields.io/travis/abranhe/dtfe.svg?logo=travis" /></a>
 	<a href="https://github.com/abranhe"><img src="https://abranhe.com/badge.svg"></a>
-	<a href="https://cash.me/$abranhe"><img src="https://cdn.abraham.gq/badges/cash-me.svg"></a>
-	<a href="https://www.patreon.com/abranhe"><img src="https://cdn.abraham.gq/badges/patreon.svg" /></a>
-	<a href="https://github.com/abranhe/dtfe/blob/master/LICENSE"><img src="https://img.shields.io/github/license/abranhe/dtfe.svg" /></a>
+	<a href="https://cash.me/$abranhe"><img src="https://cdn.abranhe.com/badges/cash-me.svg"></a>
+	<a href="https://www.patreon.com/abranhe"><img src="https://cdn.abranhe.com/badges/patreon.svg" /></a>
+	<a href="https://github.com/abranhe/dtfe/blob/master/license"><img src="https://img.shields.io/github/license/abranhe/dtfe.svg" /></a>
 
 
 </p>
@@ -27,12 +27,12 @@ $ npm install dtfe
 
 ```
 ├── bin
-    ├── index.js
+|   └── index.js
 ├── .travis.yml
 ├── LICENSE
 ├── package.json
-├── tests
-    ├── test.js
+└── tests
+    └── test.js
 ```
 # Usage
 
@@ -60,10 +60,10 @@ console.log(check('tests'));
 
 # Team
 
-|[![Carlos Abraham Logo](https://avatars3.githubusercontent.com/u/21347264?s=50&v=4)](https://19cah.com)|
+|[![Carlos Abraham Logo](https://avatars3.githubusercontent.com/u/21347264?s=50)](https://abranhe.com)|
 | :-: |
 | [Carlos Abraham](https://github.com/abranhe) |
 
 # License
 
-[MIT](https://github.com/abranhe/dtfe/blob/master/LICENSE) License © [Carlos Abraham](https://github.com/abranhe/)
+[MIT](https://github.com/abranhe/dtfe/blob/master/license) License © [Carlos Abraham](https://github.com/abranhe/)
