@@ -1,12 +1,12 @@
 'use strict';
 const fs = require('fs');
 
-module.exports = file => {
-	let flag = true;
+module.exports = path => {
 	try {
-		fs.accessSync(file, fs.F_OK);
-	} catch(err) {
-		flag = false;
-	}
-	return flag;
-}
+		if (fs.existsSync(path)) {
+			return true;
+		}
+	} catch (_) {}
+
+	return false;
+};

@@ -3,15 +3,19 @@
   "version": "1.0.1",
   "description": "Does the file/folder exist? 🤔",
   "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "test": "ava"
+    "test": "xo && ava && tsd"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/abranhe/dtfe.git"
+  "author": {
+    "name": "Carlos Abraham",
+    "email": "abraham@abranhe.com",
+    "web": "abranhe.com"
   },
+  "repository": "abranhe/dtfe",
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "engines": {
     "node": ">=6"
@@ -26,17 +30,9 @@
     "check-file",
     "check-directory"
   ],
-  "author": {
-    "name": "Carlos Abraham",
-    "email": "abraham@abranhe.com",
-    "web": "abranhe.com"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/abranhe/dtfe/issues"
-  },
-  "homepage": "https://projects.abranhe.com/dtfe",
   "devDependencies": {
-    "ava": "^1.0.0-beta.6"
+    "ava": "^2.0.0",
+    "tsd": "^0.13.1",
+    "xo": "^0.25.0"
   }
 }

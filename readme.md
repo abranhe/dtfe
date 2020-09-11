@@ -1,69 +1,54 @@
-<p align="center">
-	<a href="https://www.npmjs.com/package/dtfe"><img src="https://cdn.abranhe.com/projects/dtfe/dtfe.png"></a>
-	<br>
-	<br>
-	<br>
-	<a href="https://www.npmjs.com/package/dtfe">
-	dtfe</a>?: Does the file or folder exist? 🤔
-</p>
+# dtfe [![Github](https://github.com/abranhe/dtfe/workflows/build/badge.svg)](https://github.com/abranhe/dtfe) [![Travis](https://travis-ci.com/abranhe/dtfe.svg?branch=master)](https://travis-ci.com/abranhe/dtfe) [![License](https://img.shields.io/github/license/abranhe/dtfe.svg)](https://github.com/abranhe/dtfe/blob/master/license) [![npm](https://img.shields.io/npm/v/dtfe.svg?logo=npm)](https://npmjs.org/dtfe)
 
-<p align="center">
-	<a href="https://travis-ci.org/abranhe/dtfe"><img src="https://img.shields.io/travis/abranhe/dtfe.svg?logo=travis" /></a>
-	<a href="https://github.com/abranhe"><img src="https://abranhe.com/badge.svg"></a>
-	<a href="https://cash.me/$abranhe"><img src="https://cdn.abranhe.com/badges/cash-me.svg"></a>
-	<a href="https://www.patreon.com/abranhe"><img src="https://cdn.abranhe.com/badges/patreon.svg" /></a>
-	<a href="https://github.com/abranhe/dtfe/blob/master/license"><img src="https://img.shields.io/github/license/abranhe/dtfe.svg" /></a>
+> Does the file exist?
 
-
-</p>
-
-# Install
+## Install
 
 ```
 $ npm install dtfe
 ```
 
-# Example
+
+<details>
+<summary>
+  Other options?
+</summary>
+
+###### npm
 
 ```
-├── bin
-|   └── index.js
-├── .travis.yml
-├── LICENSE
-├── package.json
-└── tests
-    └── test.js
+$ npm install dtfe
 ```
-# Usage
+
+###### yarn
+
+```
+$ yarn add dtfe
+```
+
+###### Github Registry
+
+```
+$ npm install abranhe@dtfe
+```
+
+</details>
+
+## Usage
 
 ```js
-const check = require('dtfe');
+import check from 'dtfe';
 
 console.log(check('package.json'));
 //=> true
-
-console.log(check('setup.py'));
-//=> false
-
-console.log(check('bin/index.js'));
-//=> true
-
-console.log(check('tests'));
-//=> true
 ```
 
-# API
+## API
 
 **check(file)**
 
 > Return a function with a boolean value checking whether a file/directory exist
 
-# Team
+## License
 
-|[![Carlos Abraham Logo](https://avatars3.githubusercontent.com/u/21347264?s=50)](https://abranhe.com)|
-| :-: |
-| [Carlos Abraham](https://github.com/abranhe) |
-
-# License
-
-[MIT](https://github.com/abranhe/dtfe/blob/master/license) License © [Carlos Abraham](https://github.com/abranhe/)
+MIT © [Carlos Abraham](https://github.com/abranhe/)

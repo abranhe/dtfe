@@ -1,5 +1,5 @@
 import test from 'ava';
-import dtfe from './';
+import dtfe from '.';
 
 test('Test if a file exsit', t => {
 	t.is(dtfe('license'), true);
